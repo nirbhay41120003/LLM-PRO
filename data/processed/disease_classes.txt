@@ -1,0 +1,32 @@
+Acne
+Allergy
+Arthritis
+Bronchial Asthma
+Cervical Spondylosis
+Cervical spondylosis
+Chicken Pox
+Chicken pox
+Common Cold
+Dengue
+Diabetes
+Dimorphic Hemorrhoids
+Drug Reaction
+Fungal infection
+Gastroesophageal Reflux Disease
+Hypertension
+Impetigo
+Jaundice
+Malaria
+Migraine
+Peptic Ulcer Disease
+Pneumonia
+Psoriasis
+Typhoid
+Urinary Tract Infection
+Varicose Veins
+allergy
+diabetes
+drug reaction
+gastroesophageal reflux disease
+peptic ulcer disease
+urinary tract infection
