@@ -1,32 +1,32 @@
-Acne
-Allergy
-Arthritis
-Bronchial Asthma
-Cervical Spondylosis
-Cervical spondylosis
-Chicken Pox
+Psoriasis
+Varicose Veins
+Typhoid
 Chicken pox
-Common Cold
-Dengue
-Diabetes
-Dimorphic Hemorrhoids
-Drug Reaction
-Fungal infection
-Gastroesophageal Reflux Disease
-Hypertension
 Impetigo
+Dengue
+Fungal infection
+Common Cold
+Pneumonia
+Dimorphic Hemorrhoids
+Arthritis
+Acne
+Bronchial Asthma
+Hypertension
+Migraine
+Cervical spondylosis
 Jaundice
 Malaria
-Migraine
-Peptic Ulcer Disease
-Pneumonia
-Psoriasis
-Typhoid
-Urinary Tract Infection
-Varicose Veins
-allergy
-diabetes
-drug reaction
-gastroesophageal reflux disease
-peptic ulcer disease
 urinary tract infection
+allergy
+gastroesophageal reflux disease
+drug reaction
+peptic ulcer disease
+diabetes
+Chicken Pox
+Cervical Spondylosis
+Urinary Tract Infection
+Allergy
+Gastroesophageal Reflux Disease
+Drug Reaction
+Peptic Ulcer Disease
+Diabetes
