@@ -1,14 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Health Assistance Chatbot</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Assistant AI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
-    <h1>Health Assistance Chatbot</h1>
-    <input type="text" id="symptoms" placeholder="Enter your symptoms">
-    <button onclick="getPrediction()">Submit</button>
-    <p id="result"></p>
+    <div class="app-container">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h2><i class="fas fa-robot"></i> HealthBot</h2>
+            </div>
+            <div class="new-chat">
+                <button id="new-chat-btn"><i class="fas fa-plus"></i> New Chat</button>
+            </div>
+            <div class="chat-history" id="chat-history">
+                <!-- Chat history will be added here dynamically -->
+            </div>
+        </div>
+        
+        <div class="chat-container">
+            <div class="chat-header">
+                <h1>Health Assistant AI</h1>
+                <div class="mode-toggle">
+                    <span>Mode:</span>
+                    <select id="chat-mode">
+                        <option value="health">Medical Assistant</option>
+                        <option value="general">General Assistant</option>
+                        <option value="report_analysis">Health Report Analysis</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="messages" id="chat-messages">
+                <div class="message bot">
+                    <div class="message-content">
+                        <p>Hello! I'm your health assistant. How can I help you today?</p>
+                    </div>
+                </div>
+                <!-- Messages will be added here dynamically -->
+            </div>
+            
+            <div class="input-area">
+                <textarea id="user-input" placeholder="Type your symptoms or questions here..." rows="1"></textarea>
+                <button id="send-btn"><i class="fas fa-paper-plane"></i></button>
+                <div id="file-upload-container" style="display: none;">
+                    <input type="file" id="report-file" accept=".pdf" />
+                    <label for="report-file" id="file-upload-label"><i class="fas fa-file-upload"></i> Upload Report</label>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
