@@ -21,9 +21,11 @@ class HealthReportAnalyzer:
         logger.info("Initializing Health Report Analyzer")
         
         # Check if HuggingFace API key is available
-        self.hf_api_key = os.environ.get("HUGGINGFACE_API_KEY")
+        self.hf_api_key = current_app.config.get('HUGGINGFACE_API_KEY') or os.environ.get("HUGGINGFACE_API_KEY")
         if not self.hf_api_key:
             logger.warning("HuggingFace API key not found. Some features may not work properly.")
+        else:
+            logger.info("HuggingFace API key loaded successfully")
         
         # Initialize document store
         self.document_store = {}
