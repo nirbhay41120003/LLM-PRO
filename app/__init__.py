@@ -21,14 +21,22 @@ def create_app(config_class=None):
     
     app.config.from_object(config_class)
     
+    # Add HuggingFace API key to config
+    app.config['HUGGINGFACE_API_KEY'] = os.environ.get('HUGGINGFACE_API_KEY')
+    if not app.config['HUGGINGFACE_API_KEY']:
+        logger.warning("HuggingFace API key not found in environment variables")
+    else:
+        logger.info("HuggingFace API key loaded from environment variables")
+    
     # Initialize report analyzer if possible
-    try:
-        from app.utils.report_analyzer import create_report_analyzer
-        app.report_analyzer = create_report_analyzer()
-        logger.info("Report analyzer initialized successfully")
-    except Exception as e:
-        app.report_analyzer = None
-        logger.warning(f"Could not initialize report analyzer: {str(e)}")
+    with app.app_context():
+        try:
+            from app.utils.report_analyzer import create_report_analyzer
+            app.report_analyzer = create_report_analyzer()
+            logger.info("Report analyzer initialized successfully")
+        except Exception as e:
+            app.report_analyzer = None
+            logger.warning(f"Could not initialize report analyzer: {str(e)}")
     
     # Initialize health model if possible with the improved model
     try:
