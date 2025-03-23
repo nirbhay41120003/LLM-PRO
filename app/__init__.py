@@ -30,12 +30,32 @@ def create_app(config_class=None):
         app.report_analyzer = None
         logger.warning(f"Could not initialize report analyzer: {str(e)}")
     
-    # Initialize health model if possible
+    # Initialize health model if possible with the improved model
     try:
         from app.utils.health_model import create_health_model_handler
-        app.health_model = create_health_model_handler()
+        
+        # Get model directory - first check for configuration
+        model_dir = app.config.get('HEALTH_MODEL_DIR')
+        
+        # If not in config, use default location
+        if not model_dir:
+            # Default is to use bio_clinical_bert model directory
+            model_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
+                                    'app', 'models', 'bio_clinical_bert')
+            
+            # If bio_clinical_bert doesn't exist, fall back to original biobert_model
+            if not os.path.exists(model_dir):
+                model_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
+                                       'app', 'models', 'biobert_model')
+        
+        # Get model type - first check for configuration
+        model_type = app.config.get('HEALTH_MODEL_TYPE', 'bio_clinical_bert')
+        
+        # Create the health model handler with the better model
+        app.health_model = create_health_model_handler(model_dir=model_dir, model_type=model_type)
+        
         if hasattr(app.health_model, 'is_model_loaded') and app.health_model.is_model_loaded():
-            logger.info("Full health model initialized successfully")
+            logger.info(f"Full health model ({model_type}) initialized successfully")
         else:
             logger.info("Simple fallback health model initialized")
     except Exception as e:

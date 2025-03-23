@@ -1,5 +1,6 @@
 # Ignore model files
 app/models/biobert_model/
+app/models/bio_clinical_bert/
 results/
 logs/
 
@@ -25,6 +26,12 @@ var/
 .installed.cfg
 *.egg
 
+# Python virtual environment
+venv/
+env/
+ENV/
+virtualenv/
+
 # OS specific
 .DS_Store
 .DS_Store?
@@ -32,4 +39,17 @@ var/
 .Spotlight-V100
 .Trashes
 ehthumbs.db
-Thumbs.db 
+Thumbs.db
+
+# Local development settings
+.env
+.env.local
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Log files
+*.log 

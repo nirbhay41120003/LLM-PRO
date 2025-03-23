@@ -1,0 +1,606 @@
+{
+  "Psoriasis": {
+    "description": "Psoriasis is a chronic autoimmune condition that causes rapid buildup of skin cells, resulting in scaling on the skin's surface.",
+    "symptoms": [
+      "Red patches of skin covered with silvery scales",
+      "Small scaling spots (commonly seen in children)",
+      "Dry, cracked skin that may bleed",
+      "Itching, burning or soreness",
+      "Thickened, pitted or ridged nails",
+      "Swollen and stiff joints"
+    ],
+    "causes": [
+      "Immune system dysfunction where T cells attack healthy skin cells",
+      "Genetic predisposition",
+      "Environmental triggers like stress, injuries, and certain medications"
+    ],
+    "risk_factors": [
+      "Family history of psoriasis",
+      "Viral and bacterial infections",
+      "Stress",
+      "Obesity",
+      "Smoking"
+    ],
+    "treatment": [
+      "Topical treatments: Corticosteroids, vitamin D analogues, retinoids",
+      "Light therapy: UVB phototherapy, PUVA",
+      "Systemic medications: Methotrexate, cyclosporine, biologics",
+      "Lifestyle changes: Regular moisturizing, stress reduction, healthy diet"
+    ],
+    "when_to_see_doctor": "Consult a doctor if you suspect you have psoriasis or if your symptoms worsen despite treatment."
+  },
+  "Varicose Veins": {
+    "description": "",
+    "symptoms": [],
+    "causes": [],
+    "risk_factors": [],
+    "treatment": [],
+    "when_to_see_doctor": ""
+  },
+  "Typhoid": {
+    "description": "",
+    "symptoms": [],
+    "causes": [],
+    "risk_factors": [],
+    "treatment": [],
+    "when_to_see_doctor": ""
+  },
+  "Chicken pox": {
+    "description": "",
+    "symptoms": [],
+    "causes": [],
+    "risk_factors": [],
+    "treatment": [],
+    "when_to_see_doctor": ""
+  },
+  "Impetigo": {
+    "description": "",
+    "symptoms": [],
+    "causes": [],
+    "risk_factors": [],
+    "treatment": [],
+    "when_to_see_doctor": ""
+  },
+  "Dengue": {
+    "description": "Dengue is a mosquito-borne viral infection causing flu-like symptoms and, in severe cases, potentially life-threatening complications.",
+    "symptoms": [
+      "High fever",
+      "Severe headache",
+      "Pain behind the eyes",
+      "Joint and muscle pain",
+      "Skin rash",
+      "Nausea and vomiting",
+      "Bleeding (nose, gums, easy bruising)"
+    ],
+    "causes": [
+      "Infection by the dengue virus (DENV), transmitted by Aedes mosquitoes"
+    ],
+    "risk_factors": [
+      "Living or traveling in tropical/subtropical areas",
+      "Previous dengue infection",
+      "Lack of mosquito control"
+    ],
+    "treatment": [
+      "Supportive care (rest, fluids)",
+      "Acetaminophen for pain and fever",
+      "Avoiding NSAIDs like ibuprofen and aspirin",
+      "Hospitalization for severe dengue"
+    ],
+    "when_to_see_doctor": "Seek medical help if high fever lasts more than 2 days, or if there are warning signs like bleeding, vomiting, or severe abdominal pain."
+  },
+  "Fungal infection": {
+    "description": "",
+    "symptoms": [],
+    "causes": [],
+    "risk_factors": [],
+    "treatment": [],
+    "when_to_see_doctor": ""
+  },
+  "Common Cold": {
+    "description": "The common cold is a viral infection of the upper respiratory tract, including the nose and throat.",
+    "symptoms": [
+      "Runny or stuffy nose",
+      "Sore throat",
+      "Cough",
+      "Congestion",
+      "Slight body aches or a mild headache",
+      "Sneezing",
+      "Low-grade fever",
+      "Generally feeling unwell"
+    ],
+    "causes": [
+      "Rhinoviruses",
+      "Coronaviruses",
+      "RSV and parainfluenza"
+    ],
+    "risk_factors": [
+      "Age (infants and young children)",
+      "Weakened immune system",
+      "Time of year (fall and winter)",
+      "Exposure to infected people"
+    ],
+    "treatment": [
+      "Rest and adequate fluid intake",
+      "Over-the-counter pain relievers",
+      "Decongestants and antihistamines for symptom relief",
+      "Throat lozenges and saline nasal drops"
+    ],
+    "when_to_see_doctor": "See a doctor if symptoms last more than 10 days, are severe or unusual, or if you have a fever higher than 101.3\u00c2\u00b0F (38.5\u00c2\u00b0C)."
+  },
+  "Pneumonia": {
+    "description": "",
+    "symptoms": [],
+    "causes": [],
+    "risk_factors": [],
+    "treatment": [],
+    "when_to_see_doctor": ""
+  },
+  "Dimorphic Hemorrhoids": {
+    "description": "Dimorphic hemorrhoids refer to a condition where both internal and external hemorrhoids are present, causing significant discomfort and bleeding.",
+    "symptoms": [
+      "Pain during bowel movements",
+      "Bright red bleeding",
+      "Swelling or lumps around the anus",
+      "Itching or irritation in the anal region",
+      "Mucus discharge"
+    ],
+    "causes": [
+      "Straining during bowel movements",
+      "Chronic constipation or diarrhea",
+      "Prolonged sitting on the toilet",
+      "Obesity",
+      "Pregnancy"
+    ],
+    "risk_factors": [
+      "Low-fiber diet",
+      "Sedentary lifestyle",
+      "Aging",
+      "Family history of hemorrhoids"
+    ],
+    "treatment": [
+      "High-fiber diet and increased fluid intake",
+      "Topical treatments (creams and suppositories)",
+      "Warm sitz baths",
+      "Minimally invasive procedures (rubber band ligation, sclerotherapy)",
+      "Surgical removal in severe cases"
+    ],
+    "when_to_see_doctor": "Consult a doctor if you experience rectal bleeding, severe pain, or if symptoms persist despite home treatments."
+  },
+  "Arthritis": {
+    "description": "Arthritis refers to inflammation of one or more joints, causing pain and stiffness that can worsen with age.",
+    "symptoms": [
+      "Joint pain",
+      "Stiffness",
+      "Swelling",
+      "Redness",
+      "Decreased range of motion"
+    ],
+    "causes": [
+      "Osteoarthritis due to wear and tear",
+      "Autoimmune disorders like rheumatoid arthritis",
+      "Infections",
+      "Uric acid crystals (gout)"
+    ],
+    "risk_factors": [
+      "Age",
+      "Family history",
+      "Previous joint injuries",
+      "Obesity",
+      "Gender (some types are more common in women)"
+    ],
+    "treatment": [
+      "Pain relievers and anti-inflammatory medications",
+      "Physical therapy",
+      "Joint protection techniques",
+      "Weight management",
+      "Surgery (joint replacement) in severe cases"
+    ],
+    "when_to_see_doctor": "Consult a doctor if joint pain persists, worsens, or interferes with daily function."
+  },
+  "Acne": {
+    "description": "Acne is a skin condition that occurs when hair follicles become clogged with oil and dead skin cells.",
+    "symptoms": [
+      "Whiteheads",
+      "Blackheads",
+      "Pimples",
+      "Large, painful lumps under the skin",
+      "Scarring after lesions heal"
+    ],
+    "causes": [
+      "Excess oil production",
+      "Clogged hair follicles",
+      "Bacteria",
+      "Hormonal changes (e.g., puberty, pregnancy)"
+    ],
+    "risk_factors": [
+      "Hormonal changes during puberty or menstruation",
+      "Certain medications (like corticosteroids)",
+      "Diet (high in sugars or dairy for some people)",
+      "Stress",
+      "Family history"
+    ],
+    "treatment": [
+      "Topical treatments: benzoyl peroxide, salicylic acid, retinoids",
+      "Oral antibiotics",
+      "Hormonal treatments (like birth control pills)",
+      "Isotretinoin for severe cases",
+      "Proper skin hygiene and non-comedogenic products"
+    ],
+    "when_to_see_doctor": "See a dermatologist if acne is severe, painful, or causing emotional distress or scarring."
+  },
+  "Bronchial Asthma": {
+    "description": "Bronchial asthma is a chronic inflammatory disease of the airways that causes recurrent breathing problems.",
+    "symptoms": [
+      "Shortness of breath",
+      "Wheezing",
+      "Chest tightness",
+      "Coughing, especially at night or early morning"
+    ],
+    "causes": [
+      "Allergens (pollen, dust, mold)",
+      "Air pollutants and irritants",
+      "Exercise",
+      "Cold air",
+      "Respiratory infections",
+      "Medications (like beta blockers, aspirin)"
+    ],
+    "risk_factors": [
+      "Family history of asthma or allergies",
+      "Childhood respiratory infections",
+      "Exposure to smoke or pollutants",
+      "Obesity"
+    ],
+    "treatment": [
+      "Inhaled corticosteroids",
+      "Bronchodilators",
+      "Leukotriene modifiers",
+      "Allergy medications",
+      "Avoiding triggers",
+      "Monitoring peak flow regularly"
+    ],
+    "when_to_see_doctor": "Seek medical attention if symptoms worsen, affect daily activities, or require frequent use of quick-relief inhalers."
+  },
+  "Hypertension": {
+    "description": "Hypertension, or high blood pressure, is a common condition where the long-term force of blood against artery walls is high enough to eventually cause health problems.",
+    "symptoms": [
+      "Most people have no symptoms, hence it's called the 'silent killer'",
+      "Very high blood pressure might cause headaches",
+      "Shortness of breath",
+      "Nosebleeds"
+    ],
+    "causes": [
+      "Primary hypertension: Develops gradually with no identifiable cause",
+      "Secondary hypertension: Caused by underlying conditions like kidney disease, sleep apnea, thyroid problems"
+    ],
+    "risk_factors": [
+      "Age",
+      "Family history",
+      "Being overweight or obese",
+      "Not being physically active",
+      "Tobacco use",
+      "Too much salt in diet",
+      "Too little potassium in diet",
+      "Stress",
+      "Chronic conditions like kidney disease"
+    ],
+    "treatment": [
+      "Lifestyle changes: Regular exercise, healthy diet, limiting sodium and alcohol",
+      "Medications: Diuretics, ACE inhibitors, ARBs, calcium channel blockers",
+      "Regular monitoring of blood pressure"
+    ],
+    "when_to_see_doctor": "Regular blood pressure checks are important. See a doctor immediately if blood pressure is extremely high or if you have symptoms like severe headache, blurred vision, or nosebleeds."
+  },
+  "Migraine": {
+    "description": "Migraine is a neurological condition that can cause multiple symptoms, commonly characterized by intense, debilitating headaches.",
+    "symptoms": [
+      "Throbbing or pulsing headache, often on one side of the head",
+      "Sensitivity to light, sounds, and sometimes smells and touch",
+      "Nausea and vomiting",
+      "Blurred vision",
+      "Aura (visual phenomena like flashes of light)",
+      "Lightheadedness, sometimes followed by fainting"
+    ],
+    "causes": [
+      "Genetic predisposition",
+      "Abnormal brain activity affecting nerve signals, chemicals, and blood vessels",
+      "Hormonal changes in women"
+    ],
+    "risk_factors": [
+      "Family history of migraines",
+      "Age (migraines typically begin during adolescence)",
+      "Gender (women are three times more likely to have migraines)",
+      "Hormonal changes",
+      "Stress",
+      "Sleep changes",
+      "Sensory stimuli (bright lights, loud sounds)",
+      "Certain foods and food additives",
+      "Alcohol and caffeine"
+    ],
+    "treatment": [
+      "Pain-relieving medications: Over-the-counter or prescription pain relievers",
+      "Preventive medications: Cardiovascular drugs, antidepressants, anti-seizure drugs",
+      "Lifestyle changes: Regular sleep, meals, exercise, and stress management",
+      "Alternative therapies: Acupuncture, biofeedback, cognitive behavioral therapy"
+    ],
+    "when_to_see_doctor": "Consult a doctor if pattern or symptoms of your headaches change, if treatments don't help, or if they're disabling."
+  },
+  "Cervical spondylosis": {
+    "description": "",
+    "symptoms": [],
+    "causes": [],
+    "risk_factors": [],
+    "treatment": [],
+    "when_to_see_doctor": ""
+  },
+  "Jaundice": {
+    "description": "",
+    "symptoms": [],
+    "causes": [],
+    "risk_factors": [],
+    "treatment": [],
+    "when_to_see_doctor": ""
+  },
+  "Malaria": {
+    "description": "",
+    "symptoms": [],
+    "causes": [],
+    "risk_factors": [],
+    "treatment": [],
+    "when_to_see_doctor": ""
+  },
+  "urinary tract infection": {
+    "description": "",
+    "symptoms": [],
+    "causes": [],
+    "risk_factors": [],
+    "treatment": [],
+    "when_to_see_doctor": ""
+  },
+  "allergy": {
+    "description": "",
+    "symptoms": [],
+    "causes": [],
+    "risk_factors": [],
+    "treatment": [],
+    "when_to_see_doctor": ""
+  },
+  "gastroesophageal reflux disease": {
+    "description": "",
+    "symptoms": [],
+    "causes": [],
+    "risk_factors": [],
+    "treatment": [],
+    "when_to_see_doctor": ""
+  },
+  "drug reaction": {
+    "description": "",
+    "symptoms": [],
+    "causes": [],
+    "risk_factors": [],
+    "treatment": [],
+    "when_to_see_doctor": ""
+  },
+  "peptic ulcer disease": {
+    "description": "",
+    "symptoms": [],
+    "causes": [],
+    "risk_factors": [],
+    "treatment": [],
+    "when_to_see_doctor": ""
+  },
+  "diabetes": {
+    "description": "",
+    "symptoms": [],
+    "causes": [],
+    "risk_factors": [],
+    "treatment": [],
+    "when_to_see_doctor": ""
+  },
+  "Chicken Pox": {
+    "description": "Chickenpox is a highly contagious viral infection causing an itchy, blister-like rash, usually in children.",
+    "symptoms": [
+      "Fever",
+      "Loss of appetite",
+      "Headache",
+      "Tiredness",
+      "Itchy rash that turns into fluid-filled blisters and then scabs"
+    ],
+    "causes": [
+      "Varicella-zoster virus (VZV)"
+    ],
+    "risk_factors": [
+      "Lack of vaccination",
+      "Contact with infected individuals",
+      "Weakened immune system",
+      "Young age (common in children under 10)"
+    ],
+    "treatment": [
+      "Calamine lotion for itch relief",
+      "Antihistamines",
+      "Antiviral medications (like acyclovir in severe cases)",
+      "Rest and fluids",
+      "Keeping fingernails trimmed to prevent skin infections"
+    ],
+    "when_to_see_doctor": "See a doctor if the rash spreads to the eyes, becomes very red or tender, or if symptoms are severe or last longer than expected."
+  },
+  "Cervical Spondylosis": {
+    "description": "Cervical spondylosis is age-related wear and tear affecting the spinal disks in your neck.",
+    "symptoms": [
+      "Neck pain and stiffness",
+      "Headaches",
+      "Pain in shoulders or arms",
+      "Weakness or numbness in arms, hands, or legs",
+      "Difficulty with coordination or walking (in severe cases)"
+    ],
+    "causes": [
+      "Aging and degeneration of spinal discs",
+      "Herniated discs",
+      "Bone spurs",
+      "Dehydrated spinal discs"
+    ],
+    "risk_factors": [
+      "Age (common in people over 60)",
+      "Neck injuries",
+      "Repetitive stress on the neck",
+      "Genetics",
+      "Smoking"
+    ],
+    "treatment": [
+      "Pain relievers (NSAIDs)",
+      "Muscle relaxants",
+      "Physical therapy",
+      "Cervical collar (short-term)",
+      "Surgery in severe or progressive cases"
+    ],
+    "when_to_see_doctor": "Seek medical attention if you have chronic neck pain, or symptoms affecting limbs or coordination."
+  },
+  "Urinary Tract Infection": {
+    "description": "",
+    "symptoms": [],
+    "causes": [],
+    "risk_factors": [],
+    "treatment": [],
+    "when_to_see_doctor": ""
+  },
+  "Allergy": {
+    "description": "An allergy is an immune system reaction to a foreign substance that's not typically harmful to your body, such as pollen, pet dander, or certain foods.",
+    "symptoms": [
+      "Sneezing",
+      "Runny or stuffy nose",
+      "Itchy, watery eyes",
+      "Hives or skin rash",
+      "Swelling of lips, tongue, or throat",
+      "Shortness of breath or wheezing",
+      "Anaphylaxis in severe cases"
+    ],
+    "causes": [
+      "Pollen",
+      "Dust mites",
+      "Mold",
+      "Animal dander",
+      "Foods like peanuts, shellfish, eggs",
+      "Insect stings",
+      "Medications"
+    ],
+    "risk_factors": [
+      "Family history of allergies or asthma",
+      "Having other allergic conditions like eczema",
+      "Young age",
+      "Frequent exposure to allergens"
+    ],
+    "treatment": [
+      "Antihistamines",
+      "Decongestants",
+      "Corticosteroids",
+      "Allergy shots (immunotherapy)",
+      "Avoiding known allergens",
+      "Emergency epinephrine for severe reactions"
+    ],
+    "when_to_see_doctor": "See a doctor if your symptoms are persistent, severe, or interfere with daily life. Seek immediate care for signs of anaphylaxis."
+  },
+  "Gastroesophageal Reflux Disease": {
+    "description": "GERD is a chronic digestive disorder where stomach acid or bile flows back into the esophagus, irritating its lining.",
+    "symptoms": [
+      "Heartburn (burning sensation in the chest)",
+      "Regurgitation of food or sour liquid",
+      "Chest pain",
+      "Difficulty swallowing",
+      "Chronic cough",
+      "Sore throat or hoarseness"
+    ],
+    "causes": [
+      "Weak or relaxed lower esophageal sphincter",
+      "Hiatal hernia",
+      "Overeating or eating trigger foods",
+      "Obesity",
+      "Smoking"
+    ],
+    "risk_factors": [
+      "Obesity",
+      "Pregnancy",
+      "Smoking",
+      "Certain medications (e.g., NSAIDs, calcium channel blockers)",
+      "Diet high in fatty or spicy foods"
+    ],
+    "treatment": [
+      "Lifestyle changes: avoiding trigger foods, eating smaller meals",
+      "Weight loss",
+      "Over-the-counter antacids or H2 blockers",
+      "Proton pump inhibitors (PPIs)",
+      "Surgery in severe cases (e.g., fundoplication)"
+    ],
+    "when_to_see_doctor": "Consult a doctor if symptoms occur more than twice a week or interfere with your daily life."
+  },
+  "Drug Reaction": {
+    "description": "A drug reaction is an unwanted or unexpected response to a medication, which may be mild or severe.",
+    "symptoms": [
+      "Skin rash or hives",
+      "Fever",
+      "Swelling of lips, tongue, or face",
+      "Itching",
+      "Shortness of breath or wheezing",
+      "Anaphylaxis in severe cases"
+    ],
+    "causes": [
+      "Allergic reaction to a medication",
+      "Drug interactions",
+      "Toxic effects from overdoses or incorrect use",
+      "Immune system response to certain drugs"
+    ],
+    "risk_factors": [
+      "History of drug allergies",
+      "Multiple medications",
+      "Chronic illnesses",
+      "Genetic predisposition"
+    ],
+    "treatment": [
+      "Stopping the offending drug",
+      "Antihistamines or corticosteroids",
+      "Epinephrine in case of anaphylaxis",
+      "Supportive care for severe reactions"
+    ],
+    "when_to_see_doctor": "Seek immediate medical attention if you have signs of a serious reaction, especially breathing difficulty or facial swelling."
+  },
+  "Peptic Ulcer Disease": {
+    "description": "",
+    "symptoms": [],
+    "causes": [],
+    "risk_factors": [],
+    "treatment": [],
+    "when_to_see_doctor": ""
+  },
+  "Diabetes": {
+    "description": "Diabetes is a group of diseases that affect how your body uses blood sugar (glucose).",
+    "symptoms": [
+      "Increased thirst and frequent urination",
+      "Extreme hunger",
+      "Unexplained weight loss",
+      "Fatigue",
+      "Blurred vision",
+      "Slow-healing sores",
+      "Frequent infections"
+    ],
+    "causes": [
+      "Type 1: Immune system attacking insulin-producing cells",
+      "Type 2: Cells becoming resistant to insulin action",
+      "Gestational: Hormonal changes during pregnancy"
+    ],
+    "risk_factors": [
+      "Family history",
+      "Weight (obesity)",
+      "Inactivity",
+      "Age",
+      "Race and ethnicity",
+      "High blood pressure",
+      "Abnormal cholesterol levels"
+    ],
+    "treatment": [
+      "Blood sugar monitoring",
+      "Insulin therapy (especially for Type 1)",
+      "Oral medications or injectable medications",
+      "Healthy diet and regular exercise",
+      "Weight loss if overweight"
+    ],
+    "when_to_see_doctor": "See a doctor if you notice any diabetes symptoms or if you have risk factors for diabetes."
+  }
+}
