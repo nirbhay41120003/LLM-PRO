@@ -6,7 +6,7 @@ An AI-powered health assistant using **BioBERT** fine-tuned for medical symptom 
 
 | Service | URL |
 |---------|-----|
-| **Frontend** | https://frontend-9gsnjp6m5-nirbhaygupta4113-gmailcoms-projects.vercel.app |
+| **Frontend** | https://www.nirbhay.engineer/ |
 | **Backend API** | https://health-api.nirbhay.engineer |
 
 ## Features
