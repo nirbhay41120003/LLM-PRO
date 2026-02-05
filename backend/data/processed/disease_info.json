@@ -1,0 +1,1370 @@
+{
+  "Psoriasis": {
+    "description": "Psoriasis is a chronic autoimmune condition that causes rapid buildup of skin cells, resulting in scaling on the skin's surface. The scales are typically whitish-silver and develop in thick, red patches.",
+    "symptoms": [
+      "Red patches of skin covered with silvery scales",
+      "Small scaling spots",
+      "Dry, cracked skin that may bleed",
+      "Itching, burning, or soreness",
+      "Thickened, pitted, or ridged nails",
+      "Swollen and stiff joints"
+    ],
+    "causes": [
+      "Immune system dysfunction (T cells attack healthy skin)",
+      "Genetic factors",
+      "Environmental triggers"
+    ],
+    "risk_factors": [
+      "Family history",
+      "Stress",
+      "Smoking",
+      "Obesity",
+      "Viral and bacterial infections"
+    ],
+    "treatment": [
+      "Topical corticosteroids",
+      "Vitamin D analogues",
+      "Retinoids",
+      "Light therapy (phototherapy)",
+      "Systemic medications (methotrexate, cyclosporine)",
+      "Biologics (adalimumab, etanercept)",
+      "Moisturizers"
+    ],
+    "when_to_see_doctor": "See a doctor if psoriasis affects your quality of life, causes joint pain and swelling, or doesn't improve with treatment."
+  },
+  "Varicose Veins": {
+    "description": "Varicose veins are enlarged, twisted veins that commonly appear in the legs and feet, caused by weakened or damaged valves in the veins.",
+    "symptoms": [
+      "Dark purple or blue veins",
+      "Veins that appear twisted and bulging",
+      "Aching or heavy feeling in legs",
+      "Burning, throbbing, or cramping",
+      "Itching around veins",
+      "Worsened pain after sitting or standing for long time"
+    ],
+    "causes": [
+      "Weak or damaged vein valves",
+      "Increased pressure in leg veins",
+      "Age-related wear on valves"
+    ],
+    "risk_factors": [
+      "Age",
+      "Female gender",
+      "Pregnancy",
+      "Family history",
+      "Obesity",
+      "Standing or sitting for long periods"
+    ],
+    "treatment": [
+      "Compression stockings",
+      "Exercise",
+      "Elevating legs",
+      "Weight management",
+      "Sclerotherapy (injection treatment)",
+      "Laser treatment",
+      "Vein stripping surgery"
+    ],
+    "when_to_see_doctor": "See a doctor if self-care measures don't help, you're concerned about appearance, or you develop skin changes, ulcers, or significant pain."
+  },
+  "Typhoid": {
+    "description": "Typhoid fever is a bacterial infection caused by Salmonella typhi, spread through contaminated food and water, common in areas with poor sanitation.",
+    "symptoms": [
+      "Sustained high fever",
+      "Weakness and fatigue",
+      "Stomach pain",
+      "Headache",
+      "Loss of appetite",
+      "Rose-colored spots on chest",
+      "Constipation or diarrhea"
+    ],
+    "causes": [
+      "Salmonella typhi bacteria",
+      "Spread through contaminated food and water",
+      "Person-to-person transmission (fecal-oral route)"
+    ],
+    "risk_factors": [
+      "Travel to endemic areas (South Asia, Africa, South America)",
+      "Poor sanitation and hygiene",
+      "Drinking untreated water",
+      "Eating food prepared by infected handlers"
+    ],
+    "treatment": [
+      "Antibiotics (ciprofloxacin, azithromycin, ceftriaxone)",
+      "Fluid replacement",
+      "Rest",
+      "Soft, easily digestible diet",
+      "Hospitalization for severe cases",
+      "Surgery for intestinal perforation (rare)"
+    ],
+    "when_to_see_doctor": "See a doctor if you develop fever after traveling to endemic areas. Seek immediate care for severe abdominal pain (possible intestinal perforation), confusion, or inability to eat or drink."
+  },
+  "Chicken Pox": {
+    "description": "Chickenpox (varicella) is a highly contagious viral infection causing an itchy, blister-like rash. It's most common in children but can be more severe in adults.",
+    "symptoms": [
+      "Itchy rash that turns into fluid-filled blisters",
+      "Fever",
+      "Fatigue",
+      "Loss of appetite",
+      "Headache",
+      "Rash appears in waves over several days"
+    ],
+    "causes": [
+      "Varicella-zoster virus",
+      "Spread through direct contact with rash",
+      "Airborne transmission through coughing or sneezing"
+    ],
+    "risk_factors": [
+      "No previous chickenpox infection",
+      "Not vaccinated",
+      "Weakened immune system",
+      "Newborns of infected mothers",
+      "Adults (more severe disease)"
+    ],
+    "treatment": [
+      "Calamine lotion for itching",
+      "Antihistamines for itch relief",
+      "Acetaminophen for fever (NOT aspirin in children)",
+      "Antiviral medications (acyclovir) for high-risk patients",
+      "Keep nails short to prevent scratching",
+      "Oatmeal baths for comfort"
+    ],
+    "when_to_see_doctor": "See a doctor if rash spreads to eyes, you have difficulty breathing, fever over 102\u00b0F (39\u00b0C), signs of skin infection (redness, warmth, pus), or if you're pregnant, immunocompromised, or an adult."
+  },
+  "Impetigo": {
+    "description": "Impetigo is a highly contagious bacterial skin infection that mainly affects infants and children, causing red sores that rupture, ooze, and form a honey-colored crust.",
+    "symptoms": [
+      "Red sores that quickly rupture",
+      "Oozing fluid and crusting",
+      "Honey-colored crusts",
+      "Itching",
+      "Painless, fluid-filled blisters",
+      "Skin lesions that spread"
+    ],
+    "causes": [
+      "Staphylococcus aureus bacteria",
+      "Streptococcus pyogenes bacteria",
+      "Enter through cuts, insect bites, or skin irritation"
+    ],
+    "risk_factors": [
+      "Age 2-5 years",
+      "Crowded conditions",
+      "Warm, humid weather",
+      "Contact sports",
+      "Broken skin"
+    ],
+    "treatment": [
+      "Topical antibiotics (mupirocin)",
+      "Oral antibiotics for widespread infection",
+      "Keep sores clean and covered",
+      "Wash hands frequently",
+      "Don't share personal items"
+    ],
+    "when_to_see_doctor": "See a doctor if the rash doesn't improve within 3 days of treatment, spreads rapidly, or is accompanied by fever."
+  },
+  "Dengue": {
+    "description": "Dengue is a mosquito-borne viral infection common in tropical regions, causing flu-like symptoms that can progress to severe, potentially life-threatening dengue hemorrhagic fever.",
+    "symptoms": [
+      "High fever (104\u00b0F/40\u00b0C)",
+      "Severe headache",
+      "Pain behind the eyes",
+      "Muscle and joint pain",
+      "Nausea and vomiting",
+      "Skin rash",
+      "Mild bleeding (nose, gums)"
+    ],
+    "causes": [
+      "Dengue virus (4 serotypes)",
+      "Transmitted by Aedes mosquitoes (especially A. aegypti)",
+      "Mosquitoes bite during day, especially early morning and evening"
+    ],
+    "risk_factors": [
+      "Living in or traveling to tropical/subtropical areas",
+      "Previous dengue infection (increases risk of severe dengue)",
+      "Lack of mosquito control measures"
+    ],
+    "treatment": [
+      "No specific antiviral treatment",
+      "Rest and fluids",
+      "Acetaminophen for pain and fever",
+      "Avoid NSAIDs (can increase bleeding risk)",
+      "Hospitalization for severe dengue",
+      "Blood transfusions if needed"
+    ],
+    "when_to_see_doctor": "Seek immediate medical care if you have severe abdominal pain, persistent vomiting, bleeding, difficulty breathing, or fatigue. Warning signs typically appear as fever subsides."
+  },
+  "Fungal Infection": {
+    "description": "Fungal infections are caused by fungi that invade the skin, nails, or other body parts. Common types include athlete's foot, ringworm, yeast infections, and nail fungus.",
+    "symptoms": [
+      "Itching and redness of affected area",
+      "Skin rash or discoloration",
+      "Peeling or cracking skin",
+      "White patches on skin or mouth",
+      "Nail discoloration or thickening",
+      "Scaling or flaking skin"
+    ],
+    "causes": [
+      "Contact with infected persons or surfaces",
+      "Warm, moist environments",
+      "Weakened immune system",
+      "Poor hygiene",
+      "Tight, non-breathable clothing"
+    ],
+    "risk_factors": [
+      "Diabetes",
+      "Obesity",
+      "Weakened immune system",
+      "Excessive sweating",
+      "Recent antibiotic use"
+    ],
+    "treatment": [
+      "Antifungal creams or ointments (clotrimazole, miconazole)",
+      "Oral antifungal medications for severe cases",
+      "Keep affected areas clean and dry",
+      "Use antifungal powders in shoes and socks",
+      "Avoid sharing personal items"
+    ],
+    "when_to_see_doctor": "See a doctor if the infection spreads, doesn't improve with OTC treatment within 2 weeks, or if you have diabetes or a weakened immune system."
+  },
+  "Common Cold": {
+    "description": "The common cold is a viral infection of the upper respiratory tract affecting the nose and throat. While usually harmless, symptoms can be uncomfortable for 7-10 days.",
+    "symptoms": [
+      "Runny or stuffy nose",
+      "Sore throat",
+      "Cough",
+      "Congestion",
+      "Mild body aches",
+      "Sneezing",
+      "Low-grade fever",
+      "Mild fatigue"
+    ],
+    "causes": [
+      "Rhinoviruses (most common)",
+      "Other viruses (coronavirus, RSV, adenovirus)",
+      "Spread through airborne droplets",
+      "Contact with contaminated surfaces"
+    ],
+    "risk_factors": [
+      "Young children",
+      "Weakened immune system",
+      "Fall and winter seasons",
+      "Exposure to infected individuals",
+      "Smoking"
+    ],
+    "treatment": [
+      "Rest and fluids",
+      "Over-the-counter cold medications",
+      "Decongestants",
+      "Cough suppressants",
+      "Pain relievers (acetaminophen, ibuprofen)",
+      "Saline nasal spray",
+      "Honey for cough (adults and children over 1)"
+    ],
+    "when_to_see_doctor": "See a doctor if symptoms last more than 10 days, you have high fever, severe sore throat, or symptoms that worsen after initial improvement. Seek care for infants with cold symptoms."
+  },
+  "Pneumonia": {
+    "description": "Pneumonia is an infection that inflames the air sacs in one or both lungs, which may fill with fluid or pus, causing cough, fever, chills, and difficulty breathing.",
+    "symptoms": [
+      "Chest pain when breathing or coughing",
+      "Confusion (especially in older adults)",
+      "Cough with phlegm",
+      "Fatigue",
+      "Fever, sweating, and chills",
+      "Shortness of breath",
+      "Nausea, vomiting, or diarrhea"
+    ],
+    "causes": [
+      "Bacteria (Streptococcus pneumoniae most common)",
+      "Viruses (influenza, COVID-19, RSV)",
+      "Fungi",
+      "Aspiration of food, drink, or vomit"
+    ],
+    "risk_factors": [
+      "Age (under 2 or over 65)",
+      "Chronic diseases (COPD, asthma, heart disease)",
+      "Weakened immune system",
+      "Smoking",
+      "Hospitalization",
+      "Mechanical ventilation"
+    ],
+    "treatment": [
+      "Antibiotics for bacterial pneumonia",
+      "Antiviral medications if viral cause",
+      "Fever reducers",
+      "Cough medicine",
+      "Rest and fluids",
+      "Hospitalization for severe cases",
+      "Oxygen therapy if needed"
+    ],
+    "when_to_see_doctor": "Seek immediate care for difficulty breathing, chest pain, persistent fever over 102\u00b0F (39\u00b0C), or confusion. High-risk individuals should see a doctor at first symptoms."
+  },
+  "Dimorphic Hemorrhoids": {
+    "description": "Dimorphic Hemorrhoids is a medical condition that requires proper diagnosis and treatment.",
+    "symptoms": [],
+    "causes": [],
+    "risk_factors": [],
+    "treatment": [],
+    "when_to_see_doctor": "Consult a healthcare provider if symptoms persist or worsen."
+  },
+  "Arthritis": {
+    "description": "Arthritis is inflammation of one or more joints, causing pain and stiffness that can worsen with age. The most common types are osteoarthritis and rheumatoid arthritis.",
+    "symptoms": [
+      "Joint pain",
+      "Stiffness",
+      "Swelling",
+      "Redness",
+      "Decreased range of motion",
+      "Symptoms often worse in morning"
+    ],
+    "causes": [
+      "Osteoarthritis: Wear and tear of cartilage",
+      "Rheumatoid arthritis: Autoimmune attack on joint lining",
+      "Gout: Uric acid crystal deposits",
+      "Infections"
+    ],
+    "risk_factors": [
+      "Age",
+      "Family history",
+      "Previous joint injury",
+      "Obesity",
+      "Female gender (for RA)"
+    ],
+    "treatment": [
+      "NSAIDs for pain and inflammation",
+      "Disease-modifying antirheumatic drugs (DMARDs)",
+      "Biologics for inflammatory arthritis",
+      "Physical therapy",
+      "Joint replacement surgery",
+      "Weight management",
+      "Exercise"
+    ],
+    "when_to_see_doctor": "See a doctor if you have persistent joint pain, swelling, or stiffness, or if arthritis affects your daily activities."
+  },
+  "Acne": {
+    "description": "Acne is a skin condition that occurs when hair follicles become clogged with oil and dead skin cells, causing whiteheads, blackheads, and pimples.",
+    "symptoms": [
+      "Whiteheads (closed plugged pores)",
+      "Blackheads (open plugged pores)",
+      "Small red, tender bumps (papules)",
+      "Pimples with pus (pustules)",
+      "Large, painful lumps under skin (nodules)",
+      "Painful, pus-filled lumps (cystic lesions)"
+    ],
+    "causes": [
+      "Excess oil production",
+      "Hair follicles clogged with oil and dead skin",
+      "Bacteria",
+      "Hormonal changes"
+    ],
+    "risk_factors": [
+      "Hormonal changes (puberty, menstruation)",
+      "Family history",
+      "Greasy or oily substances on skin",
+      "Friction or pressure on skin",
+      "Stress"
+    ],
+    "treatment": [
+      "Benzoyl peroxide",
+      "Salicylic acid",
+      "Topical retinoids",
+      "Topical antibiotics",
+      "Oral antibiotics",
+      "Combined oral contraceptives",
+      "Isotretinoin for severe acne"
+    ],
+    "when_to_see_doctor": "See a dermatologist if over-the-counter products don't help after 2-3 months, acne is severe or causing scars, or acne is affecting your self-esteem."
+  },
+  "Bronchial Asthma": {
+    "description": "Bronchial asthma is a chronic respiratory condition where airways become inflamed, narrow, and produce excess mucus, causing difficulty breathing, wheezing, and coughing.",
+    "symptoms": [
+      "Shortness of breath",
+      "Wheezing (whistling sound when breathing)",
+      "Chest tightness",
+      "Coughing, especially at night or early morning",
+      "Difficulty sleeping due to breathing problems",
+      "Symptoms worsen with exercise or cold air"
+    ],
+    "causes": [
+      "Allergic reactions (pollen, dust mites, pet dander)",
+      "Respiratory infections",
+      "Exercise",
+      "Cold air",
+      "Air pollutants",
+      "Strong emotions or stress"
+    ],
+    "risk_factors": [
+      "Family history of asthma or allergies",
+      "Allergic conditions (eczema, hay fever)",
+      "Obesity",
+      "Smoking or exposure to secondhand smoke",
+      "Occupational exposures"
+    ],
+    "treatment": [
+      "Quick-relief inhalers (albuterol) for acute symptoms",
+      "Long-term control medications (inhaled corticosteroids)",
+      "Combination inhalers",
+      "Leukotriene modifiers",
+      "Allergy medications if allergic triggers",
+      "Avoid triggers",
+      "Asthma action plan"
+    ],
+    "when_to_see_doctor": "Seek emergency care if you have severe shortness of breath, can't speak due to breathing difficulty, or symptoms don't improve with quick-relief inhaler. Regular follow-up is essential for asthma management."
+  },
+  "Hypertension": {
+    "description": "Hypertension (high blood pressure) is a chronic condition where blood pressure in the arteries is persistently elevated, increasing risk of heart disease, stroke, and other complications.",
+    "symptoms": [
+      "Often no symptoms (silent killer)",
+      "Headaches (in severe cases)",
+      "Shortness of breath",
+      "Nosebleeds",
+      "Dizziness",
+      "Chest pain",
+      "Vision problems"
+    ],
+    "causes": [
+      "Primary (essential) hypertension: No identifiable cause",
+      "Secondary hypertension: Kidney disease, thyroid problems, medications, sleep apnea"
+    ],
+    "risk_factors": [
+      "Age (risk increases with age)",
+      "Family history",
+      "Obesity",
+      "Physical inactivity",
+      "High-sodium diet",
+      "Excessive alcohol",
+      "Smoking",
+      "Stress"
+    ],
+    "treatment": [
+      "Lifestyle modifications (diet, exercise, weight loss)",
+      "DASH diet (low sodium, rich in fruits and vegetables)",
+      "ACE inhibitors or ARBs",
+      "Calcium channel blockers",
+      "Diuretics",
+      "Beta-blockers",
+      "Regular blood pressure monitoring"
+    ],
+    "when_to_see_doctor": "Have blood pressure checked regularly. Seek immediate care if blood pressure is extremely high (180/120 or higher) or if you have symptoms like chest pain, difficulty breathing, or vision changes."
+  },
+  "Migraine": {
+    "description": "Migraine is a neurological condition characterized by intense, debilitating headaches often accompanied by nausea, vomiting, and sensitivity to light and sound.",
+    "symptoms": [
+      "Severe throbbing or pulsing headache (often one-sided)",
+      "Sensitivity to light (photophobia)",
+      "Sensitivity to sound (phonophobia)",
+      "Nausea and vomiting",
+      "Aura (visual disturbances, tingling) before headache",
+      "Blurred vision",
+      "Lightheadedness"
+    ],
+    "causes": [
+      "Genetic factors",
+      "Hormonal changes",
+      "Stress",
+      "Sleep disturbances",
+      "Certain foods and drinks",
+      "Environmental factors"
+    ],
+    "risk_factors": [
+      "Family history of migraines",
+      "Female gender",
+      "Hormonal changes (menstruation, pregnancy)",
+      "Age (peak in 30s)",
+      "Stress"
+    ],
+    "treatment": [
+      "Pain relievers (ibuprofen, acetaminophen) for mild migraines",
+      "Triptans (sumatriptan, rizatriptan) for moderate to severe",
+      "Anti-nausea medications",
+      "Preventive medications (beta-blockers, antidepressants, anti-seizure drugs)",
+      "CGRP inhibitors",
+      "Rest in dark, quiet room",
+      "Identify and avoid triggers"
+    ],
+    "when_to_see_doctor": "Seek emergency care for sudden, severe headache (thunderclap headache), headache with fever, stiff neck, confusion, seizures, or double vision. See a doctor if migraines are frequent or don't respond to treatment."
+  },
+  "Cervical Spondylosis": {
+    "description": "Cervical spondylosis is age-related wear and tear affecting the spinal disks in the neck, causing pain, stiffness, and sometimes nerve compression.",
+    "symptoms": [
+      "Neck pain and stiffness",
+      "Headaches starting from neck",
+      "Numbness or tingling in arms, hands, or fingers",
+      "Weakness in arms or hands",
+      "Loss of balance",
+      "Grinding sensation when moving neck"
+    ],
+    "causes": [
+      "Dehydration and shrinkage of spinal discs",
+      "Bone spurs",
+      "Stiff ligaments",
+      "Normal aging process"
+    ],
+    "risk_factors": [
+      "Age (over 50)",
+      "Occupations with repetitive neck movements",
+      "Previous neck injuries",
+      "Smoking",
+      "Genetic factors"
+    ],
+    "treatment": [
+      "Physical therapy",
+      "NSAIDs for pain and inflammation",
+      "Muscle relaxants",
+      "Neck exercises and stretches",
+      "Hot/cold therapy",
+      "Corticosteroid injections",
+      "Surgery in severe cases with nerve compression"
+    ],
+    "when_to_see_doctor": "See a doctor if you have severe or worsening neck pain, numbness or weakness in arms or legs, or loss of bladder or bowel control (emergency)."
+  },
+  "Jaundice": {
+    "description": "Jaundice is a condition characterized by yellowing of the skin and eyes due to elevated bilirubin levels, often indicating liver problems, bile duct obstruction, or blood disorders.",
+    "symptoms": [
+      "Yellow discoloration of skin and eyes",
+      "Dark urine",
+      "Pale or clay-colored stools",
+      "Itching",
+      "Fatigue",
+      "Abdominal pain",
+      "Weight loss"
+    ],
+    "causes": [
+      "Liver diseases (hepatitis, cirrhosis)",
+      "Bile duct obstruction (gallstones, tumors)",
+      "Hemolytic anemia (excessive breakdown of red blood cells)",
+      "Gilbert's syndrome",
+      "Medications"
+    ],
+    "risk_factors": [
+      "Hepatitis infection",
+      "Alcohol abuse",
+      "Gallstones",
+      "Pancreatic cancer",
+      "Certain medications",
+      "Newborn status (physiological jaundice)"
+    ],
+    "treatment": [
+      "Treatment depends on underlying cause",
+      "Antiviral medications for hepatitis",
+      "Surgery for bile duct obstruction",
+      "Medications to increase bile flow",
+      "Blood transfusions for hemolytic conditions",
+      "Liver transplant for severe liver disease"
+    ],
+    "when_to_see_doctor": "See a doctor promptly if you notice yellowing of skin or eyes. Seek immediate care if accompanied by severe abdominal pain, fever, or mental confusion."
+  },
+  "Malaria": {
+    "description": "Malaria is a life-threatening mosquito-borne disease caused by Plasmodium parasites transmitted through the bite of infected Anopheles mosquitoes.",
+    "symptoms": [
+      "High fever with chills",
+      "Profuse sweating",
+      "Headache",
+      "Nausea and vomiting",
+      "Muscle and joint pain",
+      "Fatigue",
+      "Symptoms often occur in cycles"
+    ],
+    "causes": [
+      "Plasmodium parasites (P. falciparum most dangerous)",
+      "Transmitted by infected Anopheles mosquitoes",
+      "Can also spread through blood transfusion or shared needles"
+    ],
+    "risk_factors": [
+      "Living in or traveling to endemic areas (Africa, South Asia, South America)",
+      "Young children and infants",
+      "Pregnant women",
+      "No previous exposure (no immunity)"
+    ],
+    "treatment": [
+      "Antimalarial medications (artemisinin-based combination therapy)",
+      "Chloroquine for sensitive strains",
+      "IV medications for severe malaria",
+      "Supportive care (fluids, fever management)",
+      "Hospitalization for severe cases"
+    ],
+    "when_to_see_doctor": "Seek immediate medical attention if you develop fever after traveling to a malaria-endemic area. Malaria can become life-threatening within hours if not treated."
+  },
+  "Urinary Tract Infection": {
+    "description": "A urinary tract infection (UTI) is an infection in any part of the urinary system \u2014 kidneys, ureters, bladder, and urethra. Most infections involve the lower urinary tract.",
+    "symptoms": [
+      "Strong, persistent urge to urinate",
+      "Burning sensation when urinating",
+      "Passing frequent, small amounts of urine",
+      "Cloudy urine",
+      "Strong-smelling urine",
+      "Blood in urine (hematuria)",
+      "Pelvic pain (women)",
+      "Rectal pain (men)"
+    ],
+    "causes": [
+      "Bacteria entering urinary tract",
+      "E. coli (most common)",
+      "Sexual activity",
+      "Poor hygiene",
+      "Urinary catheter use"
+    ],
+    "risk_factors": [
+      "Female anatomy",
+      "Sexual activity",
+      "Certain types of birth control",
+      "Menopause",
+      "Urinary tract abnormalities",
+      "Blocked urinary flow",
+      "Weakened immune system"
+    ],
+    "treatment": [
+      "Antibiotics (trimethoprim-sulfamethoxazole, nitrofurantoin)",
+      "Increased fluid intake",
+      "Pain relievers",
+      "Heating pad for discomfort",
+      "Complete full course of antibiotics"
+    ],
+    "when_to_see_doctor": "See a doctor if you have UTI symptoms, especially if accompanied by fever, back pain, nausea, or vomiting (signs of kidney infection). Pregnant women and men should seek prompt care."
+  },
+  "Allergy": {
+    "description": "Allergies occur when the immune system overreacts to harmless substances like pollen, dust, pet dander, or certain foods, causing symptoms ranging from mild to severe.",
+    "symptoms": [
+      "Sneezing and runny nose",
+      "Itchy, watery eyes",
+      "Skin rash or hives",
+      "Swelling of lips, tongue, or throat",
+      "Difficulty breathing",
+      "Stomach pain or vomiting (food allergies)"
+    ],
+    "causes": [
+      "Pollen from trees, grass, or weeds",
+      "Dust mites",
+      "Pet dander",
+      "Certain foods (nuts, shellfish, eggs)",
+      "Insect stings",
+      "Medications"
+    ],
+    "risk_factors": [
+      "Family history of allergies",
+      "Asthma or other allergies",
+      "Being a child",
+      "Weakened immune system"
+    ],
+    "treatment": [
+      "Antihistamines (cetirizine, loratadine)",
+      "Nasal corticosteroid sprays",
+      "Decongestants",
+      "Allergen immunotherapy (allergy shots)",
+      "Epinephrine auto-injector for severe reactions",
+      "Avoid known allergens"
+    ],
+    "when_to_see_doctor": "Seek immediate medical care for severe reactions (anaphylaxis) with difficulty breathing, swelling of throat, or rapid heartbeat. See a doctor if allergies significantly affect quality of life."
+  },
+  "Gastroesophageal Reflux Disease": {
+    "description": "Gastroesophageal Reflux Disease is a medical condition that requires proper diagnosis and treatment.",
+    "symptoms": [],
+    "causes": [],
+    "risk_factors": [],
+    "treatment": [],
+    "when_to_see_doctor": "Consult a healthcare provider if symptoms persist or worsen."
+  },
+  "Drug Reaction": {
+    "description": "An adverse drug reaction is an unwanted or harmful response to a medication. Reactions can range from mild skin rashes to severe life-threatening conditions.",
+    "symptoms": [
+      "Skin rash or hives",
+      "Itching",
+      "Fever",
+      "Swelling",
+      "Difficulty breathing",
+      "Nausea and vomiting",
+      "Dizziness"
+    ],
+    "causes": [
+      "Allergic response to medication",
+      "Drug interactions",
+      "Overdose",
+      "Side effects of medication",
+      "Genetic factors affecting drug metabolism"
+    ],
+    "risk_factors": [
+      "Previous allergic reactions to medications",
+      "Family history of drug allergies",
+      "Multiple medications",
+      "HIV/AIDS",
+      "Certain genetic markers"
+    ],
+    "treatment": [
+      "Stop the offending medication immediately",
+      "Antihistamines for mild reactions",
+      "Corticosteroids for moderate reactions",
+      "Epinephrine for anaphylaxis",
+      "Supportive care in hospital if severe"
+    ],
+    "when_to_see_doctor": "Seek emergency care immediately for difficulty breathing, swelling of face or throat, rapid heartbeat, or severe skin reactions. Report all drug reactions to your doctor."
+  },
+  "Peptic Ulcer Disease": {
+    "description": "Peptic ulcer disease involves open sores that develop on the inside lining of the stomach (gastric ulcers) or the upper portion of the small intestine (duodenal ulcers).",
+    "symptoms": [
+      "Burning stomach pain",
+      "Feeling of fullness or bloating",
+      "Heartburn",
+      "Nausea",
+      "Intolerance to fatty foods",
+      "Pain that improves with eating (duodenal) or worsens (gastric)"
+    ],
+    "causes": [
+      "Helicobacter pylori (H. pylori) bacterial infection",
+      "Long-term use of NSAIDs (aspirin, ibuprofen)",
+      "Excess stomach acid production"
+    ],
+    "risk_factors": [
+      "Smoking",
+      "Alcohol consumption",
+      "Stress",
+      "Spicy foods (may worsen symptoms)",
+      "Family history of ulcers"
+    ],
+    "treatment": [
+      "Antibiotics to kill H. pylori (if present)",
+      "Proton pump inhibitors",
+      "H2-receptor blockers",
+      "Antacids",
+      "Avoid NSAIDs",
+      "Stop smoking and limit alcohol"
+    ],
+    "when_to_see_doctor": "Seek immediate care if you have sharp, sudden stomach pain, bloody or black stools, or vomiting blood. See a doctor if symptoms persist despite treatment."
+  },
+  "Diabetes": {
+    "description": "Diabetes mellitus is a chronic condition where the body cannot properly process blood glucose (sugar), leading to high blood sugar levels that can cause serious health complications.",
+    "symptoms": [
+      "Increased thirst (polydipsia)",
+      "Frequent urination (polyuria)",
+      "Extreme hunger",
+      "Unexplained weight loss",
+      "Fatigue",
+      "Blurred vision",
+      "Slow-healing wounds",
+      "Frequent infections"
+    ],
+    "causes": [
+      "Type 1: Autoimmune destruction of insulin-producing cells",
+      "Type 2: Insulin resistance and inadequate insulin production",
+      "Gestational: Hormonal changes during pregnancy"
+    ],
+    "risk_factors": [
+      "Family history of diabetes",
+      "Obesity",
+      "Physical inactivity",
+      "Age over 45",
+      "High blood pressure",
+      "Polycystic ovary syndrome"
+    ],
+    "treatment": [
+      "Blood sugar monitoring",
+      "Insulin therapy (Type 1, some Type 2)",
+      "Oral diabetes medications (metformin, sulfonylureas)",
+      "Healthy diet with carbohydrate counting",
+      "Regular physical activity",
+      "Weight management"
+    ],
+    "when_to_see_doctor": "See a doctor if you have symptoms of diabetes. Seek emergency care for signs of diabetic ketoacidosis (nausea, vomiting, abdominal pain, confusion) or severely low blood sugar."
+  },
+  "GERD": {
+    "description": "Gastroesophageal reflux disease (GERD) is a chronic digestive condition where stomach acid frequently flows back into the esophagus, causing irritation and discomfort.",
+    "symptoms": [
+      "Heartburn (burning sensation in chest)",
+      "Acid reflux or regurgitation",
+      "Difficulty swallowing",
+      "Chest pain",
+      "Chronic cough",
+      "Hoarseness or sore throat",
+      "Feeling of lump in throat"
+    ],
+    "causes": [
+      "Weakened lower esophageal sphincter",
+      "Hiatal hernia",
+      "Obesity",
+      "Pregnancy",
+      "Delayed stomach emptying"
+    ],
+    "risk_factors": [
+      "Obesity",
+      "Pregnancy",
+      "Smoking",
+      "Eating large meals or late at night",
+      "Fatty or fried foods",
+      "Certain medications (aspirin, ibuprofen)"
+    ],
+    "treatment": [
+      "Antacids for immediate relief",
+      "H-2 receptor blockers (famotidine, ranitidine)",
+      "Proton pump inhibitors (omeprazole, esomeprazole)",
+      "Eat smaller meals",
+      "Avoid trigger foods",
+      "Don't lie down after eating",
+      "Elevate head while sleeping"
+    ],
+    "when_to_see_doctor": "See a doctor if you have heartburn more than twice a week, difficulty swallowing, persistent nausea or vomiting, or weight loss due to difficulty eating."
+  },
+  "Chronic Cholestasis": {
+    "description": "Chronic cholestasis is a condition where bile flow from the liver is reduced or blocked, leading to bile buildup and liver damage over time.",
+    "symptoms": [
+      "Intense itching (pruritus)",
+      "Jaundice (yellowing of skin and eyes)",
+      "Dark urine",
+      "Pale or clay-colored stools",
+      "Fatigue",
+      "Upper right abdominal pain",
+      "Easy bruising"
+    ],
+    "causes": [
+      "Primary biliary cholangitis",
+      "Primary sclerosing cholangitis",
+      "Pregnancy (intrahepatic cholestasis)",
+      "Medications",
+      "Liver diseases"
+    ],
+    "risk_factors": [
+      "Female gender (for primary biliary cholangitis)",
+      "Family history",
+      "Autoimmune conditions",
+      "Inflammatory bowel disease"
+    ],
+    "treatment": [
+      "Ursodeoxycholic acid (UDCA)",
+      "Cholestyramine for itching",
+      "Vitamin supplements (A, D, E, K)",
+      "Treatment of underlying cause",
+      "Liver transplant in severe cases"
+    ],
+    "when_to_see_doctor": "See a doctor immediately if you develop jaundice, severe itching, or dark urine. Regular monitoring is essential for chronic conditions."
+  },
+  "AIDS": {
+    "description": "AIDS (Acquired Immunodeficiency Syndrome) is the most advanced stage of HIV infection, characterized by severe immune system damage, leaving the body vulnerable to opportunistic infections.",
+    "symptoms": [
+      "Rapid weight loss",
+      "Recurring fever",
+      "Extreme fatigue",
+      "Prolonged swelling of lymph nodes",
+      "Diarrhea lasting more than a week",
+      "Pneumonia",
+      "Memory loss and neurological disorders"
+    ],
+    "causes": [
+      "HIV (Human Immunodeficiency Virus) infection",
+      "Transmitted through blood, semen, vaginal fluids, breast milk"
+    ],
+    "risk_factors": [
+      "Unprotected sex",
+      "Sharing needles",
+      "Blood transfusion (rare in screened supplies)",
+      "Mother-to-child transmission"
+    ],
+    "treatment": [
+      "Antiretroviral therapy (ART) - lifelong treatment",
+      "Treatment of opportunistic infections",
+      "Preventive medications for infections",
+      "Regular monitoring of CD4 count and viral load",
+      "Healthy lifestyle and nutrition"
+    ],
+    "when_to_see_doctor": "Get tested if you've had potential exposure to HIV. If diagnosed with HIV, regular medical care is essential. Seek immediate care for signs of opportunistic infections."
+  },
+  "Gastroenteritis": {
+    "description": "Gastroenteritis, commonly called stomach flu, is an inflammation of the stomach and intestines usually caused by viral or bacterial infection, leading to diarrhea and vomiting.",
+    "symptoms": [
+      "Watery diarrhea",
+      "Nausea and vomiting",
+      "Stomach cramps and pain",
+      "Low-grade fever",
+      "Headache",
+      "Muscle aches",
+      "Loss of appetite"
+    ],
+    "causes": [
+      "Viruses (norovirus, rotavirus)",
+      "Bacteria (Salmonella, E. coli, Campylobacter)",
+      "Parasites",
+      "Contaminated food or water"
+    ],
+    "risk_factors": [
+      "Young children and elderly",
+      "Weakened immune system",
+      "Living in crowded conditions",
+      "Travel to areas with poor sanitation"
+    ],
+    "treatment": [
+      "Rest and fluid replacement",
+      "Oral rehydration solutions",
+      "Gradual return to normal diet (BRAT diet)",
+      "Avoid dairy, caffeine, alcohol",
+      "Antibiotics only for bacterial infections",
+      "Anti-diarrheal medications (adults only)"
+    ],
+    "when_to_see_doctor": "Seek medical care if you can't keep liquids down for 24 hours, have bloody vomit or stools, fever above 104\u00b0F (40\u00b0C), signs of dehydration, or symptoms lasting more than a few days."
+  },
+  "Paralysis (Brain Hemorrhage)": {
+    "description": "Brain hemorrhage (hemorrhagic stroke) occurs when blood vessels in the brain rupture, causing bleeding that damages brain tissue and can lead to paralysis and other serious complications.",
+    "symptoms": [
+      "Sudden severe headache",
+      "Weakness or numbness on one side of body",
+      "Difficulty speaking or understanding speech",
+      "Vision problems",
+      "Loss of balance or coordination",
+      "Confusion",
+      "Loss of consciousness"
+    ],
+    "causes": [
+      "High blood pressure (most common)",
+      "Aneurysm rupture",
+      "Arteriovenous malformation (AVM)",
+      "Head trauma",
+      "Blood-thinning medications",
+      "Bleeding disorders"
+    ],
+    "risk_factors": [
+      "High blood pressure",
+      "Smoking",
+      "Diabetes",
+      "Heavy alcohol use",
+      "Drug use (cocaine, amphetamines)",
+      "Family history",
+      "Advanced age"
+    ],
+    "treatment": [
+      "Emergency medical care - TIME IS CRITICAL",
+      "Surgery to stop bleeding or remove blood clot",
+      "Medications to reduce brain swelling",
+      "Blood pressure control",
+      "Rehabilitation (physical, occupational, speech therapy)",
+      "Long-term management of risk factors"
+    ],
+    "when_to_see_doctor": "CALL EMERGENCY SERVICES IMMEDIATELY if you observe signs of stroke. Remember FAST: Face drooping, Arm weakness, Speech difficulty, Time to call emergency."
+  },
+  "Hepatitis A": {
+    "description": "Hepatitis A is a highly contagious liver infection caused by the hepatitis A virus, typically spread through contaminated food or water or close contact with an infected person.",
+    "symptoms": [
+      "Fatigue",
+      "Nausea and vomiting",
+      "Abdominal pain (especially near liver)",
+      "Loss of appetite",
+      "Low-grade fever",
+      "Dark urine",
+      "Jaundice (yellowing of skin and eyes)"
+    ],
+    "causes": [
+      "Hepatitis A virus (HAV)",
+      "Contaminated food or water",
+      "Close contact with infected person",
+      "Poor sanitation"
+    ],
+    "risk_factors": [
+      "Travel to areas with high hepatitis A rates",
+      "Living with someone who has hepatitis A",
+      "Men who have sex with men",
+      "Drug use",
+      "Working with primates"
+    ],
+    "treatment": [
+      "No specific treatment - body clears virus on its own",
+      "Rest",
+      "Adequate nutrition and hydration",
+      "Avoid alcohol and hepatotoxic medications",
+      "Supportive care for symptoms"
+    ],
+    "when_to_see_doctor": "See a doctor if you develop symptoms of hepatitis A, especially jaundice. Seek immediate care if you have severe abdominal pain or signs of liver failure."
+  },
+  "Hepatitis B": {
+    "description": "Hepatitis B is a viral infection that attacks the liver and can cause both acute and chronic disease, transmitted through blood and body fluids.",
+    "symptoms": [
+      "Abdominal pain",
+      "Dark urine",
+      "Fever",
+      "Joint pain",
+      "Loss of appetite",
+      "Nausea and vomiting",
+      "Jaundice",
+      "Fatigue"
+    ],
+    "causes": [
+      "Hepatitis B virus (HBV)",
+      "Spread through blood, semen, and other body fluids",
+      "Mother-to-child transmission",
+      "Sharing needles or razors"
+    ],
+    "risk_factors": [
+      "Unprotected sex with infected person",
+      "Sharing needles",
+      "Healthcare workers",
+      "Born to infected mother",
+      "Travel to endemic areas"
+    ],
+    "treatment": [
+      "Acute: Usually resolves on its own with rest and fluids",
+      "Chronic: Antiviral medications (entecavir, tenofovir)",
+      "Interferon injections",
+      "Regular monitoring of liver function",
+      "Liver transplant for severe cases"
+    ],
+    "when_to_see_doctor": "Get tested if you're at risk or have symptoms. Regular monitoring is essential for chronic hepatitis B. Seek immediate care for severe abdominal pain or signs of liver failure."
+  },
+  "Hepatitis C": {
+    "description": "Hepatitis C is a viral infection that causes liver inflammation and damage, primarily spread through contact with infected blood. Many people don't know they're infected until liver damage appears.",
+    "symptoms": [
+      "Often no symptoms for years",
+      "Fatigue",
+      "Fever",
+      "Dark urine",
+      "Clay-colored stools",
+      "Abdominal pain",
+      "Jaundice",
+      "Joint pain"
+    ],
+    "causes": [
+      "Hepatitis C virus (HCV)",
+      "Contact with infected blood",
+      "Sharing needles",
+      "Healthcare exposures",
+      "Mother-to-child (less common)"
+    ],
+    "risk_factors": [
+      "History of injection drug use",
+      "Received blood transfusion before 1992",
+      "Healthcare workers",
+      "Born to mother with hepatitis C",
+      "HIV infection"
+    ],
+    "treatment": [
+      "Direct-acting antiviral medications (cure rate over 95%)",
+      "Treatment typically 8-12 weeks",
+      "Regular liver function monitoring",
+      "Avoid alcohol",
+      "Vaccination for hepatitis A and B"
+    ],
+    "when_to_see_doctor": "Get tested if you have risk factors. Regular monitoring is essential during and after treatment. Seek care for signs of liver disease progression."
+  },
+  "Hepatitis D": {
+    "description": "Hepatitis D (delta hepatitis) is a liver infection caused by the hepatitis D virus, which only occurs in people already infected with hepatitis B.",
+    "symptoms": [
+      "Similar to hepatitis B symptoms",
+      "Fatigue",
+      "Loss of appetite",
+      "Nausea",
+      "Abdominal pain",
+      "Jaundice",
+      "Dark urine"
+    ],
+    "causes": [
+      "Hepatitis D virus (requires hepatitis B to replicate)",
+      "Spread through blood and body fluids",
+      "Can occur as coinfection or superinfection"
+    ],
+    "risk_factors": [
+      "Chronic hepatitis B infection",
+      "Injection drug use",
+      "Multiple sex partners",
+      "Travel to endemic areas"
+    ],
+    "treatment": [
+      "Pegylated interferon alpha (limited effectiveness)",
+      "Treatment of underlying hepatitis B",
+      "Liver transplant for end-stage liver disease",
+      "Supportive care"
+    ],
+    "when_to_see_doctor": "If you have hepatitis B, get tested for hepatitis D. Seek immediate care for signs of liver failure or severe symptoms."
+  },
+  "Hepatitis E": {
+    "description": "Hepatitis E is a liver infection caused by the hepatitis E virus, typically spread through contaminated drinking water, common in areas with poor sanitation.",
+    "symptoms": [
+      "Mild fever",
+      "Loss of appetite",
+      "Nausea and vomiting",
+      "Abdominal pain",
+      "Jaundice",
+      "Dark urine",
+      "Clay-colored stools",
+      "Joint pain"
+    ],
+    "causes": [
+      "Hepatitis E virus (HEV)",
+      "Contaminated drinking water",
+      "Undercooked pork or wild game",
+      "Blood transfusion (rare)"
+    ],
+    "risk_factors": [
+      "Travel to endemic areas",
+      "Poor sanitation",
+      "Pregnancy (can be severe)",
+      "Immunocompromised individuals"
+    ],
+    "treatment": [
+      "Usually self-limiting",
+      "Rest and hydration",
+      "Avoid alcohol",
+      "Ribavirin for chronic cases (immunocompromised)",
+      "Supportive care"
+    ],
+    "when_to_see_doctor": "See a doctor if you develop symptoms after travel to endemic areas. Pregnant women should seek immediate care as hepatitis E can be serious during pregnancy."
+  },
+  "Alcoholic Hepatitis": {
+    "description": "Alcoholic hepatitis is inflammation of the liver caused by excessive alcohol consumption, ranging from mild to severe life-threatening disease.",
+    "symptoms": [
+      "Jaundice",
+      "Abdominal pain and swelling",
+      "Nausea and vomiting",
+      "Loss of appetite",
+      "Fever",
+      "Confusion (hepatic encephalopathy)",
+      "Fatigue"
+    ],
+    "causes": [
+      "Heavy alcohol consumption",
+      "Genetic factors affecting alcohol metabolism",
+      "Nutritional deficiencies"
+    ],
+    "risk_factors": [
+      "Heavy drinking (especially over many years)",
+      "Female gender (more susceptible)",
+      "Obesity",
+      "Genetic factors",
+      "Viral hepatitis"
+    ],
+    "treatment": [
+      "Complete abstinence from alcohol (essential)",
+      "Nutritional support",
+      "Corticosteroids for severe cases",
+      "Pentoxifylline",
+      "Liver transplant for end-stage disease",
+      "Treatment of complications"
+    ],
+    "when_to_see_doctor": "Seek immediate care if you have severe abdominal pain, vomiting blood, or confusion. See a doctor for any symptoms of liver disease if you drink alcohol regularly."
+  },
+  "Tuberculosis": {
+    "description": "Tuberculosis (TB) is a bacterial infection that primarily affects the lungs but can spread to other organs. It spreads through airborne droplets when infected people cough or sneeze.",
+    "symptoms": [
+      "Persistent cough (3+ weeks)",
+      "Coughing up blood or mucus",
+      "Chest pain",
+      "Unintentional weight loss",
+      "Fatigue",
+      "Fever and night sweats",
+      "Loss of appetite"
+    ],
+    "causes": [
+      "Mycobacterium tuberculosis bacteria",
+      "Spread through airborne droplets",
+      "Close contact with infected persons"
+    ],
+    "risk_factors": [
+      "HIV/AIDS",
+      "Weakened immune system",
+      "Close contact with TB patients",
+      "Healthcare workers",
+      "Living in crowded conditions",
+      "Malnutrition"
+    ],
+    "treatment": [
+      "Combination of antibiotics for 6-9 months",
+      "Common drugs: isoniazid, rifampin, ethambutol, pyrazinamide",
+      "Direct observed therapy (DOT)",
+      "Treatment completion is critical",
+      "Drug-resistant TB requires longer treatment"
+    ],
+    "when_to_see_doctor": "See a doctor if you have a persistent cough, unexplained weight loss, or night sweats. Get tested if you've been exposed to someone with TB or have risk factors."
+  },
+  "Hemorrhoids (Piles)": {
+    "description": "Hemorrhoids are swollen blood vessels in the rectum or anus that can cause pain, itching, and bleeding, especially during bowel movements.",
+    "symptoms": [
+      "Painless bleeding during bowel movements",
+      "Itching or irritation in anal region",
+      "Pain or discomfort",
+      "Swelling around anus",
+      "Lump near anus (may be sensitive)",
+      "Fecal leakage"
+    ],
+    "causes": [
+      "Straining during bowel movements",
+      "Sitting for long periods on toilet",
+      "Chronic constipation or diarrhea",
+      "Pregnancy",
+      "Low-fiber diet",
+      "Heavy lifting"
+    ],
+    "risk_factors": [
+      "Chronic constipation",
+      "Pregnancy",
+      "Low-fiber diet",
+      "Obesity",
+      "Sitting for long periods",
+      "Aging"
+    ],
+    "treatment": [
+      "High-fiber diet",
+      "Increased fluid intake",
+      "Over-the-counter creams and suppositories",
+      "Sitz baths",
+      "Stool softeners",
+      "Minimally invasive procedures (rubber band ligation)",
+      "Surgery for severe cases"
+    ],
+    "when_to_see_doctor": "See a doctor if you have rectal bleeding (to rule out other conditions), severe pain, or hemorrhoids that don't improve with home treatment."
+  },
+  "Heart Attack": {
+    "description": "A heart attack (myocardial infarction) occurs when blood flow to part of the heart muscle is blocked, usually by a blood clot, causing tissue damage. It's a medical emergency.",
+    "symptoms": [
+      "Chest pain or pressure (may spread to arm, jaw, back)",
+      "Shortness of breath",
+      "Cold sweat",
+      "Nausea or vomiting",
+      "Lightheadedness",
+      "Fatigue",
+      "Women may have atypical symptoms"
+    ],
+    "causes": [
+      "Coronary artery disease",
+      "Blood clot blocking coronary artery",
+      "Coronary artery spasm"
+    ],
+    "risk_factors": [
+      "High blood pressure",
+      "High cholesterol",
+      "Smoking",
+      "Diabetes",
+      "Obesity",
+      "Family history",
+      "Age (men over 45, women over 55)",
+      "Stress"
+    ],
+    "treatment": [
+      "CALL EMERGENCY SERVICES IMMEDIATELY",
+      "Aspirin (if not allergic)",
+      "Nitroglycerin",
+      "Clot-dissolving medications",
+      "Angioplasty and stent placement",
+      "Coronary bypass surgery",
+      "Cardiac rehabilitation"
+    ],
+    "when_to_see_doctor": "CALL EMERGENCY SERVICES (911) IMMEDIATELY if you suspect a heart attack. Do not drive yourself to the hospital. Every minute matters."
+  },
+  "Hypothyroidism": {
+    "description": "Hypothyroidism is a condition where the thyroid gland doesn't produce enough thyroid hormones, leading to slowed metabolism and various symptoms.",
+    "symptoms": [
+      "Fatigue",
+      "Increased sensitivity to cold",
+      "Constipation",
+      "Dry skin",
+      "Weight gain",
+      "Puffy face",
+      "Hoarseness",
+      "Muscle weakness",
+      "Depression",
+      "Memory problems"
+    ],
+    "causes": [
+      "Hashimoto's thyroiditis (autoimmune)",
+      "Thyroid surgery",
+      "Radiation therapy",
+      "Certain medications",
+      "Iodine deficiency"
+    ],
+    "risk_factors": [
+      "Female gender",
+      "Age over 60",
+      "Family history of thyroid disease",
+      "Autoimmune conditions",
+      "Previous thyroid treatment"
+    ],
+    "treatment": [
+      "Synthetic thyroid hormone (levothyroxine)",
+      "Daily medication for life",
+      "Regular blood tests to monitor levels",
+      "Dose adjustments as needed"
+    ],
+    "when_to_see_doctor": "See a doctor if you have symptoms of hypothyroidism, especially fatigue and unexplained weight gain. Regular follow-up is essential once on treatment."
+  },
+  "Hyperthyroidism": {
+    "description": "Hyperthyroidism is a condition where the thyroid gland produces too much thyroid hormone, speeding up metabolism and causing various symptoms.",
+    "symptoms": [
+      "Rapid heartbeat",
+      "Unintentional weight loss",
+      "Increased appetite",
+      "Anxiety and irritability",
+      "Tremor in hands",
+      "Sweating",
+      "Changes in menstrual patterns",
+      "Heat sensitivity",
+      "Enlarged thyroid (goiter)"
+    ],
+    "causes": [
+      "Graves' disease (autoimmune)",
+      "Overactive thyroid nodules",
+      "Thyroiditis",
+      "Excess iodine intake"
+    ],
+    "risk_factors": [
+      "Female gender",
+      "Family history of thyroid disorders",
+      "Personal history of autoimmune disease",
+      "Recent pregnancy"
+    ],
+    "treatment": [
+      "Anti-thyroid medications",
+      "Radioactive iodine",
+      "Beta blockers for symptom control",
+      "Thyroid surgery (thyroidectomy)",
+      "Lifelong monitoring"
+    ],
+    "when_to_see_doctor": "See a doctor if you have rapid heartbeat, unexplained weight loss, or other symptoms. Seek immediate care for thyroid storm (fever, rapid heartbeat, confusion)."
+  },
+  "Hypoglycemia": {
+    "description": " Hypoglycemia is a condition in which your blood sugar (glucose) level is lower than normal. Glucose is your body's main energy source. Hypoglycemia is often related to diabetes treatment. But other drugs and a variety of conditions \u2014 many rare \u2014 can cause low blood sugar in people who don't have diabetes.",
+    "symptoms": [],
+    "causes": [],
+    "risk_factors": [],
+    "treatment": [
+      "lie down on side",
+      "check in pulse",
+      "drink sugary drinks",
+      "consult doctor"
+    ],
+    "when_to_see_doctor": "Consult a healthcare provider if symptoms persist or worsen."
+  },
+  "Osteoarthritis": {
+    "description": "Osteoarthritis is the most common form of arthritis, occurring when the protective cartilage that cushions the ends of bones wears down over time.",
+    "symptoms": [
+      "Pain during or after movement",
+      "Stiffness, especially in morning",
+      "Tenderness when pressing on joint",
+      "Loss of flexibility",
+      "Grating sensation",
+      "Bone spurs",
+      "Swelling"
+    ],
+    "causes": [
+      "Wear and tear on joints over time",
+      "Joint injury or surgery",
+      "Obesity putting stress on joints"
+    ],
+    "risk_factors": [
+      "Older age",
+      "Female gender",
+      "Obesity",
+      "Joint injuries",
+      "Repeated stress on joint",
+      "Genetics",
+      "Bone deformities"
+    ],
+    "treatment": [
+      "Pain relievers (acetaminophen)",
+      "NSAIDs",
+      "Physical therapy",
+      "Occupational therapy",
+      "Cortisone injections",
+      "Hyaluronic acid injections",
+      "Joint replacement surgery",
+      "Weight loss"
+    ],
+    "when_to_see_doctor": "See a doctor if joint pain and stiffness don't improve, interfere with daily activities, or are accompanied by redness and swelling."
+  },
+  "(Vertigo) Paroymsal  Positional Vertigo": {
+    "description": "(Vertigo) Paroymsal  Positional Vertigo is a medical condition that requires proper diagnosis and treatment.",
+    "symptoms": [],
+    "causes": [],
+    "risk_factors": [],
+    "treatment": [],
+    "when_to_see_doctor": "Consult a healthcare provider if symptoms persist or worsen."
+  }
+}

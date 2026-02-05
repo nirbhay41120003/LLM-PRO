@@ -1,0 +1,41 @@
+# Core Flask dependencies
+flask==2.3.2
+flask-sqlalchemy==3.0.5
+flask-cors==4.0.0
+python-dotenv==1.0.0
+gunicorn==21.2.0
+
+# Machine Learning - PyTorch & Transformers
+torch==2.0.1
+transformers==4.36.0
+accelerate==0.25.0
+
+# BioBERT/Medical NLP
+sentence-transformers==2.2.2
+huggingface-hub==0.20.2
+
+# RAG System
+faiss-cpu==1.7.4
+langchain==0.1.4
+langchain-community==0.0.14
+
+# Data Processing
+pandas==2.0.3
+numpy==1.23.5
+scikit-learn==1.2.2
+
+# PDF Processing (for report analysis)
+PyPDF2==3.0.1
+
+# Production dependencies
+Flask-Limiter==3.5.0
+Flask-Compress==1.14
+waitress==2.1.0
+
+# Optional: Caching
+redis==5.0.1
+Flask-Caching==2.1.0
+
+# Development/Testing
+pytest==7.4.0
+requests==2.31.0

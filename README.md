@@ -1,149 +1,227 @@
-# Health Assistance Chatbot
+# Health Assistant - AI Medical Chatbot
 
-A medical chatbot that uses natural language processing and deep learning to analyze symptoms and suggest possible medical conditions with comprehensive disease information.
+An AI-powered health assistant using **BioBERT** fine-tuned for medical symptom classification and **RAG (Retrieval-Augmented Generation)** for comprehensive medical responses.
 
-## Overview
-
-This project implements a health assistance chatbot that:
-- Takes user symptoms as input
-- Uses a fine-tuned medical language model to analyze the symptoms
-- Suggests possible medical conditions based on the symptoms
-- Provides comprehensive disease information including symptoms, causes, treatments, and when to see a doctor
-
-## Project Structure
+## 🏗️ Architecture
 
 ```
-health-chatbot/                  # Root directory
-│
-├── app/                         # Backend application
-│   ├── __init__.py              # Initializes the Flask app
-│   ├── routes/                  # API routes
-│   │   ├── main_routes.py       # Main interface routes
-│   │   ├── chat_routes.py       # Chat API endpoints
-│   │   └── auth_routes.py       # Authentication routes
-│   ├── models/                  # Deep learning models
-│   │   ├── bio_clinical_bert/   # Saved Bio_ClinicalBERT model
-│   │   ├── biobert_model/       # Saved BioBERT model (legacy)
-│   │   └── train_model.py       # Script to train the model
-│   ├── utils/                   # Utility functions
-│   │   ├── data_preprocessing.py # Data cleaning and preprocessing
-│   │   ├── health_model.py      # Health model handler
-│   │   ├── report_analyzer.py   # Medical report analyzer
-│   │   └── tokenizer.py         # Tokenizer functions
-│   └── config.py                # Configuration settings
-│
-├── data/                        # Datasets
-│   ├── raw/                     # Raw datasets (e.g., Symptom2Disease.csv)
-│   ├── processed/               # Processed datasets
-│   │   ├── disease_classes.txt  # List of diseases the model can classify
-│   │   └── disease_info.json    # Comprehensive disease information
-│   └── README.md                # Dataset documentation
-│
-├── templates/                   # Frontend HTML templates
-│   └── index.html               # Main chatbot interface
-│
-├── static/                      # Static files (CSS, JS, images)
-│   ├── css/
-│   │   └── styles.css           # Custom CSS for the frontend
-│   └── js/
-│       └── script.js            # JavaScript for frontend interactivity
-│
-├── scripts/                     # Helper scripts
-│   └── train_and_prepare_model.py # Script to train models and prepare disease info
-│
-├── tests/                       # Unit and integration tests
-│   ├── test_routes.py           # Test API endpoints
-│   └── test_model.py            # Test the deep learning model
-│
-├── requirements.txt             # Python dependencies
-├── README.md                    # Project documentation
-└── app.py                       # Main entry point for the Flask app
+┌─────────────────────────────────────────────────────────────────┐
+│                         Frontend (Vercel)                        │
+│                    Next.js + Tailwind CSS                        │
+│                    https://your-app.vercel.app                   │
+└───────────────────────────┬─────────────────────────────────────┘
+                            │ HTTPS API Calls
+                            ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                    Backend (Mac Mini Server)                     │
+│                    Flask + BioBERT + FAISS                       │
+│                    http://your-ip:5000                           │
+├─────────────────────────────────────────────────────────────────┤
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────────────────┐  │
+│  │  BioBERT    │  │  RAG System │  │  Medical Knowledge Base │  │
+│  │  Classifier │  │  (FAISS)    │  │  (43 Diseases)          │  │
+│  └─────────────┘  └─────────────┘  └─────────────────────────┘  │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
-## Installation
+## 📁 Project Structure
 
-1. Clone the repository:
+```
+LLM-PRO/
+├── backend/                 # Flask API Server (runs on Mac Mini)
+│   ├── app/
+│   │   ├── models/          # Trained models
+│   │   ├── routes/          # API endpoints
+│   │   └── utils/           # BioBERT, RAG, etc.
+│   ├── data/                # Training data & knowledge base
+│   ├── app.py               # Server entry point
+│   ├── requirements.txt     # Python dependencies
+│   └── start_server.sh      # Production startup script
+│
+└── frontend/                # Next.js App (deploys to Vercel)
+    ├── src/app/             # App pages
+    ├── package.json
+    └── vercel.json          # Vercel configuration
+```
+
+## 🚀 Quick Start
+
+### 1. Backend Setup (Mac Mini)
+
 ```bash
-git clone https://github.com/yourusername/health-chatbot.git
-cd health-chatbot
-```
+cd backend
 
-2. Create a virtual environment and activate it:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+# Create virtual environment
+python3 -m venv venv
+source venv/bin/activate
 
-3. Install dependencies:
-```bash
+# Install dependencies
 pip install -r requirements.txt
+
+# Train the model (first time only)
+python -m app.utils.train_pipeline --model biobert --epochs 2 --batch-size 16
+
+# Start the server
+chmod +x start_server.sh
+./start_server.sh
+# Or manually:
+python app.py --host 0.0.0.0 --port 5000
 ```
 
-## Usage
+### 2. Frontend Setup (Local Development)
 
-1. Prepare your dataset:
-   - Place your symptom-disease dataset in the `data/raw/` directory
-   - The dataset should have columns for symptoms and diseases
-
-2. Train the model with improved medical language models:
 ```bash
-# Train with Bio_ClinicalBERT (recommended)
-python scripts/train_and_prepare_model.py --train --model-type bio_clinical_bert
+cd frontend
 
-# Or train with PubMedBERT
-python scripts/train_and_prepare_model.py --train --model-type pubmed_bert
+# Install dependencies
+npm install
 
-# Or use the original BioBERT
-python scripts/train_and_prepare_model.py --train --model-type biobert
+# Create environment file
+cp .env.example .env.local
+# Edit .env.local with your backend URL
+
+# Run development server
+npm run dev
 ```
 
-3. Prepare or update disease information:
+### 3. Deploy Frontend to Vercel
+
 ```bash
-# Generate templates for disease information
-python scripts/train_and_prepare_model.py --prepare-info
+cd frontend
 
-# To overwrite existing disease information
-python scripts/train_and_prepare_model.py --prepare-info --overwrite
+# Install Vercel CLI
+npm i -g vercel
+
+# Deploy
+vercel
+
+# Set environment variable in Vercel dashboard:
+# NEXT_PUBLIC_API_URL = https://your-mac-mini-domain.com:5000
 ```
 
-4. Run the application:
+## 🌐 Exposing Backend to Internet
+
+To allow Vercel frontend to access your Mac Mini backend:
+
+### Option 1: Port Forwarding (Simple)
+1. Forward port 5000 on your router to Mac Mini's IP
+2. Use your public IP: `http://YOUR_PUBLIC_IP:5000`
+
+### Option 2: Cloudflare Tunnel (Recommended)
 ```bash
-python app.py
+# Install cloudflared
+brew install cloudflared
+
+# Login to Cloudflare
+cloudflared tunnel login
+
+# Create tunnel
+cloudflared tunnel create health-api
+
+# Run tunnel
+cloudflared tunnel --url http://localhost:5000
 ```
 
-5. Open your browser and navigate to `http://127.0.0.1:5000`
+### Option 3: ngrok (Quick Testing)
+```bash
+# Install ngrok
+brew install ngrok
 
-## Model
+# Expose port
+ngrok http 5000
+```
 
-This project supports multiple biomedical language models:
+## 📡 API Endpoints
 
-1. **Bio_ClinicalBERT** (default): A BERT model trained on clinical notes from MIMIC-III, providing better understanding of clinical language and symptoms.
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/` | GET | API info |
+| `/api/status` | GET | Check API status |
+| `/health` | POST | Analyze symptoms (main endpoint) |
+| `/analyze` | POST | Get disease prediction |
+| `/rag-search` | POST | Search medical knowledge |
+| `/general` | POST | General health queries |
 
-2. **PubMedBERT**: A BERT model trained on PubMed abstracts and full-text articles, offering strong performance on biomedical text.
+### Example Request
 
-3. **BioBERT** (legacy): The original biomedical language model trained on biomedical text.
+```bash
+curl -X POST https://your-api.com/health \
+  -H "Content-Type: application/json" \
+  -d '{"message": "I have fever and headache for 3 days"}'
+```
 
-The models are fine-tuned on symptom-disease datasets to predict medical conditions based on symptom descriptions.
+### Example Response
 
-## Disease Information
+```json
+{
+  "disease": "Malaria",
+  "confidence": 20.1,
+  "response": "Based on your symptoms, the most likely condition is **Malaria**...",
+  "alternatives": [
+    {"disease": "Dengue", "confidence": 15.2},
+    {"disease": "Typhoid", "confidence": 12.8}
+  ],
+  "severity_analysis": {
+    "severity": "moderate",
+    "score": 5
+  }
+}
+```
 
-The chatbot provides comprehensive information about diseases, including:
-- Detailed descriptions
-- Common symptoms
-- Causes and risk factors
-- Treatment options
-- When to see a doctor
+## 🔧 Configuration
 
-This information is stored in `data/processed/disease_info.json` and can be edited to include more details for each disease.
+### Backend Environment Variables
 
-## Note
+```bash
+PORT=5000                    # Server port
+HOST=0.0.0.0                # Server host
+CORS_ORIGINS=*              # Allowed origins (comma-separated)
+HEALTH_MODEL_TYPE=biobert   # Model type
+TOKENIZERS_PARALLELISM=false
+```
 
-This chatbot is for educational purposes only and should not be used as a substitute for professional medical advice, diagnosis, or treatment.
+### Frontend Environment Variables
 
-## License
+```bash
+NEXT_PUBLIC_API_URL=http://localhost:5000  # Backend URL
+```
 
-[MIT License](LICENSE)
+## 🧠 Model Information
 
-## Contributors
+- **Base Model**: BioBERT v1.1 (dmis-lab/biobert-v1.1)
+- **Training Data**: 3,628 samples across 43 diseases
+- **Embedding Model**: all-MiniLM-L6-v2 for RAG
+- **Vector Store**: FAISS for fast similarity search
 
-- Your Name - Initial work 
+### Supported Models
+
+| Model | Description |
+|-------|-------------|
+| `biobert` | BioBERT v1.1 - PubMed abstracts |
+| `pubmedbert` | PubMedBERT - Full PubMed corpus |
+| `bio_clinical_bert` | Clinical notes |
+| `scibert` | Scientific papers |
+
+## 🧪 Testing
+
+```bash
+cd backend
+
+# Run all tests
+python test_model.py
+
+# Test API manually
+curl http://localhost:5000/api/status
+```
+
+## 📊 Diseases Covered
+
+Allergy, Arthritis, Bronchial Asthma, Cervical Spondylosis, Chicken Pox, Common Cold, Dengue, Diabetes, Drug Reaction, Fungal Infection, Gastroenteritis, GERD, Heart Attack, Hepatitis, Hypertension, Hypoglycemia, Influenza, Jaundice, Malaria, Migraine, Pneumonia, Psoriasis, Tuberculosis, Typhoid, Urinary Tract Infection, and more...
+
+## ⚠️ Disclaimer
+
+This AI assistant is for **informational purposes only**. It is not a substitute for professional medical advice, diagnosis, or treatment. Always consult a qualified healthcare provider for medical concerns.
+
+## 📄 License
+
+MIT License - See [LICENSE](LICENSE) for details.
