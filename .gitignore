@@ -1,16 +1,11 @@
-# Ignore model files
-app/models/biobert_model/
-app/models/bio_clinical_bert/
-results/
-logs/
-
+# ==========================================
 # Python
+# ==========================================
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-env/
 build/
 develop-eggs/
 dist/
@@ -25,14 +20,71 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Python virtual environment
+# Virtual environments
 venv/
 env/
 ENV/
 virtualenv/
+.venv/
 
-# OS specific
+# ==========================================
+# ML Models & Large Files
+# ==========================================
+# Model weights (too large for Git - use Git LFS or download separately)
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.h5
+*.onnx
+
+# Checkpoints
+checkpoint-*/
+checkpoints/
+
+# Results and logs
+results/
+logs/
+*.log
+
+# ==========================================
+# Node.js / Next.js (Frontend)
+# ==========================================
+node_modules/
+.next/
+out/
+.vercel
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ==========================================
+# Environment & Secrets
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+
+# ==========================================
+# IDE & Editor
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# ==========================================
+# OS Specific
+# ==========================================
 .DS_Store
 .DS_Store?
 ._*
@@ -41,15 +93,30 @@ virtualenv/
 ehthumbs.db
 Thumbs.db
 
-# Local development settings
-.env
-.env.local
+# ==========================================
+# Flask / Backend
+# ==========================================
+instance/
+*.db
+*.sqlite3
 
-# IDE files
-.idea/
-.vscode/
-*.swp
-*.swo
+# ==========================================
+# Jupyter Notebooks
+# ==========================================
+.ipynb_checkpoints/
+*.ipynb
 
-# Log files
-*.log 
+# ==========================================
+# Testing
+# ==========================================
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# ==========================================
+# Misc
+# ==========================================
+*.bak
+*.tmp
+*.temp 
